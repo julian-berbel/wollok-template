@@ -8,10 +8,16 @@
     "vscode": {
       "extensions": [
         "uqbar.wollok-lsp-ide",
-        "uqbar.wollok-highlight"
+        "uqbar.wollok-highlight",
+        "jebbs.plantuml"
       ],
       "settings": {
-        "wollokLSP.cli-path": "/usr/local/bin/wollok"
+        "wollokLSP.cli-path": "/usr/local/bin/wollok",
+        "plantuml.exportOutDir": ".",
+        "plantuml.exportSubFolder": false,
+        "plantuml.jar": "/usr/local/bin/plantuml.jar",
+        "plantuml.render": "Local",
+        "plantuml.exportFormat": "png"
       }
     }
   }
